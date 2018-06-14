@@ -14,4 +14,13 @@ class Constants {
         const val DEFAULT_INT: Int = 0
 
     }
+
+}
+
+enum class Sex {
+    MALE, FEMALE
+}
+
+enum class Civil_state {
+    RELATIONSHIP, SINGLE
 }

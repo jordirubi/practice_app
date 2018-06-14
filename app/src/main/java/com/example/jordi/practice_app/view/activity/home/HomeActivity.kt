@@ -3,6 +3,10 @@ package com.example.jordi.practice_app.view.activity.home
 import android.os.Bundle
 import android.os.PersistableBundle
 import com.example.jordi.practice_app.R
+import com.example.jordi.practice_app.R.id.progress
+import com.example.jordi.practice_app.R.id.progress_circular
+import com.example.jordi.practice_app.extensions.hideMe
+import com.example.jordi.practice_app.extensions.showMe
 import com.example.jordi.practice_app.presenter.home.HomePresenter
 import com.example.jordi.practice_app.view.activity.RootActivity
 import com.example.jordi.practice_app.view.custom.toolbar.ToolbarView
@@ -10,6 +14,7 @@ import com.github.salomonbrys.kodein.Kodein
 import com.github.salomonbrys.kodein.bind
 import com.github.salomonbrys.kodein.instance
 import com.github.salomonbrys.kodein.provider
+import kotlinx.android.synthetic.main.view_progress.*
 import kotlinx.android.synthetic.main.view_toolbar.*
 
 class HomeActivity : RootActivity<HomePresenter.View>(), HomePresenter.View {
@@ -33,11 +38,11 @@ class HomeActivity : RootActivity<HomePresenter.View>(), HomePresenter.View {
     }
 
     override fun showProgress() {
-        //progress.showMe()
+        progress.showMe()
     }
 
     override fun hideProgress() {
-        //progress.hideMe()
+        progress.hideMe()
     }
 
     override fun initializeUI() {
