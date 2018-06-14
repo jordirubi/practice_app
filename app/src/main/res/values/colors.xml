@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- OVERRIDE for Follow Analytics notification background color -->
+    <color name="red">#D62828</color>
+    <color name="blue">#003893</color>
+    <color name="blue_25_transparent">#40002654</color>
+    <color name="dark_blue">#0A0E31</color>
+    <color name="dark_blue_400">#101A3E</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70_percent">#B3FFFFFF</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="blue_600">#002654</color>
+    <color name="blue_600_10_percent">#1A002654</color>
+    <color name="grey_15_percent">#26002654</color>
+    <color name="golden">#BE8C32</color>
+
+    <color name="black_70_percent">#B3000000</color>
+    <color name="black_100_percent">#FF333333</color>
+    <color name="black">#000000</color>
+    <color name="red_81_percent">#CFD62828</color>
+    <color name="transparent">#00000000</color>
+    <color name="playStoreColor">#117d46</color>
+
+</resources>

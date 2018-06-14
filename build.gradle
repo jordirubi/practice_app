@@ -1,0 +1,56 @@
+apply from: 'config/buildsystem/dependencies.gradle'
+
+buildscript {
+    ext.kotlin_version = '1.1.60'
+    repositories {
+        google()
+        jcenter()
+        maven { url 'https://maven.fabric.io/public' }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+def getSignFile(String file) {
+    Properties properties = readFile(file)
+    return properties.getProperty("KEYSTORE_FILE")
+}
+
+def getSignFilePassword(String file) {
+    Properties properties = readFile(file)
+    return properties.getProperty("KEYSTORE_PASSWORD")
+}
+
+def getSignAlias(String file) {
+    Properties properties = readFile(file)
+    return properties.getProperty("KEY_ALIAS")
+}
+
+def getSignAliasPassword(String file) {
+    Properties properties = readFile(file)
+    return properties.getProperty("KEY_PASSWORD")
+}
+
+def getVersionName(String file) {
+    Properties properties = readFile(file)
+    return properties.getProperty("T21_APP_VERSION")
+}
+
+def readFile(String file) {
+    Properties properties = new Properties()
+    properties.load(project.rootProject.file(file).newDataInputStream())
+    return properties
+}

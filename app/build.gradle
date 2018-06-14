@@ -1,0 +1,60 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "com.example.a694062.android_petshop"
+        minSdkVersion 15
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    def appDependencies = rootProject.ext.applicationDependencies
+    def appTestDependencies = rootProject.ext.applicationTestDependencies
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation appDependencies.appCompat_v7
+    implementation appDependencies.design
+    implementation appDependencies.cardView
+    implementation appDependencies.progress
+    implementation appDependencies.expandableLayout
+    implementation appDependencies.bottomBar
+    implementation appDependencies.pickers
+    implementation appDependencies.materialEditText
+    implementation appDependencies.glide
+    implementation appDependencies.dexter
+    implementation appDependencies.realmBrowser
+    implementation appDependencies.photoView
+    implementation appDependencies.animations
+    implementation appDependencies.kodein
+    implementation appDependencies.kodeinAndroid
+    implementation appDependencies.rxJava
+    implementation appDependencies.rxAndroid
+    testImplementation appTestDependencies.jUnit
+    testImplementation appTestDependencies.mockito
+
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+
+    androidTestImplementation appTestDependencies.mockitoAndroid
+    androidTestImplementation appTestDependencies.espresso
+    androidTestImplementation appTestDependencies.espressoCore
+    compile('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
+        transitive = true
+    }
+
+    implementation project(':data')
+    implementation project(':domain')
+}
