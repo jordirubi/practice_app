@@ -21,8 +21,6 @@ abstract class RootActivity<out V : Presenter.View> : AppCompatActivity(), Kodei
 
     abstract val layoutResourceId: Int
 
-    abstract val toolbar: ToolbarView
-
     override val injector = KodeinInjector()
 
     abstract val activityModule: Kodein.Module

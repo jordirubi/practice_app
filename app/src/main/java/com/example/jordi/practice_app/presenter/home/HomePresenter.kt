@@ -1,17 +1,18 @@
 package com.example.jordi.practice_app.presenter.home
 
 import com.example.jordi.practice_app.error.ErrorHandler
-import com.example.jordi.practice_app.presenter.Presenter
+import com.example.jordi.practice_app.presenter.MenuPresenter
 
 class HomePresenter(errorHandler: ErrorHandler,
                     view: HomePresenter.View)
-    : Presenter<HomePresenter.View>(errorHandler, view) {
+    : MenuPresenter<HomePresenter.View>(errorHandler, view) {
 
     override fun initialize() {
-
+        super.initialize()
     }
 
     override fun resume() {
+        super.resume()
 
     }
 
@@ -22,7 +23,7 @@ class HomePresenter(errorHandler: ErrorHandler,
 
     }
 
-    interface View: Presenter.View {
+    interface View: MenuPresenter.View {
 
     }
 }
