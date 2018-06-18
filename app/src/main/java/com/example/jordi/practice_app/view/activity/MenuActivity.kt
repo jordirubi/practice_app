@@ -22,8 +22,6 @@ abstract class MenuActivity<out V : MenuPresenter.View> : RootActivity<MenuPrese
 
     abstract val currentScreen: Screen
 
-    abstract val toolbar: ToolbarView
-
     private val drawerOpeningListener = object : DrawerLayout.SimpleDrawerListener() {
         override fun onDrawerOpened(drawerView: View?) {
             super.onDrawerOpened(drawerView)

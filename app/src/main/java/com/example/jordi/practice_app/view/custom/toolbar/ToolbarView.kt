@@ -19,6 +19,7 @@ class ToolbarView @JvmOverloads constructor(
     fun showToolbar(type: ToolbarView.Type, title: String) {
         when (type) {
             ToolbarView.Type.MENU_SEARCH_ADD -> showMenuSearchAddToolbar()
+            ToolbarView.Type.BACK_EDIT -> showBackEditToolbar()
         }
 
         setTitle(title)
@@ -38,8 +39,17 @@ class ToolbarView @JvmOverloads constructor(
         back.hideMe()
     }
 
+    private fun showBackEditToolbar() {
+        back.showMe()
+
+        toggleDrawer.hideMe()
+        toolbarTitle.hideMe()
+        search.hideMe()
+        add.hideMe()
+    }
+
     enum class Type {
-        MENU_SEARCH_ADD
+        MENU_SEARCH_ADD, BACK_EDIT
     }
 }
 

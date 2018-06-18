@@ -8,92 +8,7 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/../android-petshop/app/src/main/res/layout/view_progress.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../olympique_lyon_android/app/build/generated/source/r/debug/com/olympiquelyonnais/android/R.java">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../olympique_lyon_android/app/src/main/java/com/olympiquelyonnais/android/executor/RxExecutor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../olympique_lyon_android/app/src/main/java/com/olympiquelyonnais/android/presenter/MenuPresenter.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../olympique_lyon_android/app/src/main/java/com/olympiquelyonnais/android/view/adapter/menu/StaticMenuItemsAdapter.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../olympique_lyon_android/app/src/main/java/com/olympiquelyonnais/android/view/navigation/OLNavigationView.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../olympique_lyon_android/app/src/main/res/layout/view_ol_navigation.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../olympique_lyon_android/app/src/main/res/values/colors.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/../olympique_lyon_android/domain/src/main/java/com/olympiquelyonnais/android/domain/interactor/ObservableInteractor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/build.gradle">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/di/Modules.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/error/ErrorHandler.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/executor/RxExecutor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/extensions/Extensions.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/model/Menu.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/model/PersonView.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/model/Screen.kt">
           <value>
             <set />
           </value>
@@ -108,17 +23,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/presenter/Presenter.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/presenter/home/HomePresenter.kt">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/view/App.kt">
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/presenter/personProfile/PersonProfilePresenter.kt">
           <value>
             <set />
           </value>
@@ -138,12 +48,12 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/view/adapter/RootAdapter.kt">
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/view/activity/personProfile/PersonProfileActivity.kt">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/view/adapter/menu/StaticMenuItemsAdapter.kt">
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/view/adapter/home/PeopleListAdapter.kt">
           <value>
             <set />
           </value>
@@ -153,97 +63,17 @@
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/java/com/example/jordi/practice_app/view/navigation/NavigationView.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/layout/activity_home.xml">
           <value>
             <set />
           </value>
         </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_menu_static.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/view_navigation.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/view_navigation_header.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/view_progress.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/layout/view_toolbar.xml">
+        <entry key="$PROJECT_DIR$/app/src/main/res/layout/item_person.xml">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/app/src/main/res/values/styles.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/data/src/main/AndroidManifest.xml">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/domain/src/main/java/com/example/jordi/domain/constants/Constants.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/domain/src/main/java/com/example/jordi/domain/exceptions/Exceptions.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/domain/src/main/java/com/example/jordi/domain/executor/Executor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/domain/src/main/java/com/example/jordi/domain/interactor/CompletableInteractor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/domain/src/main/java/com/example/jordi/domain/interactor/FlowableInteractor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/domain/src/main/java/com/example/jordi/domain/interactor/MaybeInteractor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/domain/src/main/java/com/example/jordi/domain/interactor/ObservableInteractor.kt">
-          <value>
-            <set />
-          </value>
-        </entry>
-        <entry key="$PROJECT_DIR$/domain/src/main/java/com/example/jordi/domain/interactor/Singleinteractor.kt">
           <value>
             <set />
           </value>

@@ -17,7 +17,7 @@ abstract class MenuPresenter<out T : MenuPresenter.View>(errorHandler: ErrorHand
     }
 
     override fun destroy() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+
     }
 
     private fun getUser() {
